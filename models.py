@@ -45,7 +45,7 @@ class HistorialSeguimiento(BaseModel):
     producto: str = Field(min_length=2)
 
 # ================= COMPRAS Y VENTAS =================
-
+ 
 class Compra(BaseModel):
     id: int = Field(gt=0)
     comprador: str = Field(min_length=3)
