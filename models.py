@@ -16,7 +16,7 @@ class Lote(BaseModel):
     producto: str = Field(min_length=2)
     cantidad: int = Field(gt=0)
     categoria: str = Field(min_length=3)
-
+ 
 # ================= COMPRADORES =================
 
 class Comprador(BaseModel):
