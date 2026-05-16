@@ -12,7 +12,7 @@ lotes = [
     {"id": 1, "producto": "Papa", "cantidad": 500, "categoria": "Tubérculos"},
     {"id": 2, "producto": "Tomate", "cantidad": 200, "categoria": "Verduras"}
 ]
-
+ 
 compradores = [
     {"id": 1, "nombre": "Jesus", "ciudad": "Bogotá"},
     {"id": 2, "nombre": "Sofia", "ciudad": "Medellín"}
